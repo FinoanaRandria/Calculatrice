@@ -32,7 +32,6 @@ __published:	// Composants gérés par l'EDI
 	TButton *btnDot;
 	TButton *btnEquals;
 	TButton *btnDiv;
-	void __fastcall NumberClick(TObject *Sender);
 private:	// Déclarations utilisateur
 public:		// Déclarations utilisateur
 	__fastcall TForm1(TComponent* Owner);

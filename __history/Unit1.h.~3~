@@ -11,28 +11,27 @@
 class TForm1 : public TForm
 {
 __published:	// Composants gérés par l'EDI
-	TEdit *EditDisplay;
-	TButton *btnBS;
-	TButton *btnCE;
-	TButton *btnC;
-	TButton *btnPM;
-	TButton *btn7;
-	TButton *btn8;
-	TButton *btn9;
-	TButton *btnAdd;
-	TButton *btn4;
-	TButton *btn5;
-	TButton *btn6;
-	TButton *btnSub;
-	TButton *btn1;
-	TButton *btn2;
-	TButton *btn3;
-	TButton *btnMult;
-	TButton *btn0;
-	TButton *btnDot;
-	TButton *btnEquals;
-	TButton *btnDiv;
-	void __fastcall NumberClick(TObject *Sender);
+	TEdit *Edit1;
+	TButton *Button1;
+	TButton *Button2;
+	TButton *Button3;
+	TButton *Button4;
+	TButton *Button5;
+	TButton *Button6;
+	TButton *Button7;
+	TButton *Button8;
+	TButton *Button9;
+	TButton *Button10;
+	TButton *Button11;
+	TButton *Button12;
+	TButton *Button13;
+	TButton *Button14;
+	TButton *Button15;
+	TButton *Button16;
+	TButton *Button17;
+	TButton *Button18;
+	TButton *Button19;
+	TButton *Button20;
 private:	// Déclarations utilisateur
 public:		// Déclarations utilisateur
 	__fastcall TForm1(TComponent* Owner);

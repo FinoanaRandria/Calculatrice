@@ -14,19 +14,3 @@ __fastcall TForm1::TForm1(TComponent* Owner)
 {
 }
 //---------------------------------------------------------------------------
-void __fastcall TForm1::NumberClick(TObject *Sender)
-{
-
-		 TButton* b = ((TButton*)Sender);
-
-		 if(EditDisplay->Text == "0"){
-
-			EditDisplay->Text = b->Caption;
-
-
-		 }else{
-             EditDisplay->Text = EditDisplay->Text + b ->Caption;
-         }
-
-}
-//---------------------------------------------------------------------------

@@ -98,7 +98,6 @@ object Form1: TForm1
     Font.Style = [fsBold]
     ParentFont = False
     TabOrder = 5
-    OnClick = NumberClick
   end
   object btn8: TButton
     Left = 111
@@ -113,7 +112,6 @@ object Form1: TForm1
     Font.Style = [fsBold]
     ParentFont = False
     TabOrder = 6
-    OnClick = NumberClick
   end
   object btn9: TButton
     Left = 214
@@ -128,7 +126,6 @@ object Form1: TForm1
     Font.Style = [fsBold]
     ParentFont = False
     TabOrder = 7
-    OnClick = NumberClick
   end
   object btnAdd: TButton
     Left = 317
@@ -157,7 +154,6 @@ object Form1: TForm1
     Font.Style = [fsBold]
     ParentFont = False
     TabOrder = 9
-    OnClick = NumberClick
   end
   object btn5: TButton
     Left = 111
@@ -172,7 +168,6 @@ object Form1: TForm1
     Font.Style = [fsBold]
     ParentFont = False
     TabOrder = 10
-    OnClick = NumberClick
   end
   object btn6: TButton
     Left = 214
@@ -187,7 +182,6 @@ object Form1: TForm1
     Font.Style = [fsBold]
     ParentFont = False
     TabOrder = 11
-    OnClick = NumberClick
   end
   object btnSub: TButton
     Left = 317
@@ -216,7 +210,6 @@ object Form1: TForm1
     Font.Style = [fsBold]
     ParentFont = False
     TabOrder = 13
-    OnClick = NumberClick
   end
   object btn2: TButton
     Left = 111
@@ -231,7 +224,6 @@ object Form1: TForm1
     Font.Style = [fsBold]
     ParentFont = False
     TabOrder = 14
-    OnClick = NumberClick
   end
   object btn3: TButton
     Left = 214
@@ -246,7 +238,6 @@ object Form1: TForm1
     Font.Style = [fsBold]
     ParentFont = False
     TabOrder = 15
-    OnClick = NumberClick
   end
   object btnMult: TButton
     Left = 319
@@ -275,7 +266,6 @@ object Form1: TForm1
     Font.Style = [fsBold]
     ParentFont = False
     TabOrder = 17
-    OnClick = NumberClick
   end
   object btnDot: TButton
     Left = 111

@@ -14,7 +14,7 @@ object Form1: TForm1
   Position = poDesigned
   PixelsPerInch = 96
   TextHeight = 13
-  object EditDisplay: TEdit
+  object Edit1: TEdit
     Left = 8
     Top = 8
     Width = 397
@@ -29,7 +29,7 @@ object Form1: TForm1
     TabOrder = 0
     Text = '0'
   end
-  object btnBS: TButton
+  object Button1: TButton
     Left = 8
     Top = 80
     Width = 88
@@ -43,7 +43,7 @@ object Form1: TForm1
     ParentFont = False
     TabOrder = 1
   end
-  object btnCE: TButton
+  object Button2: TButton
     Left = 110
     Top = 79
     Width = 88
@@ -57,7 +57,7 @@ object Form1: TForm1
     ParentFont = False
     TabOrder = 2
   end
-  object btnC: TButton
+  object Button3: TButton
     Left = 214
     Top = 80
     Width = 88
@@ -71,7 +71,7 @@ object Form1: TForm1
     ParentFont = False
     TabOrder = 3
   end
-  object btnPM: TButton
+  object Button4: TButton
     Left = 317
     Top = 80
     Width = 88
@@ -85,7 +85,7 @@ object Form1: TForm1
     ParentFont = False
     TabOrder = 4
   end
-  object btn7: TButton
+  object Button5: TButton
     Left = 8
     Top = 174
     Width = 88
@@ -98,9 +98,8 @@ object Form1: TForm1
     Font.Style = [fsBold]
     ParentFont = False
     TabOrder = 5
-    OnClick = NumberClick
   end
-  object btn8: TButton
+  object Button6: TButton
     Left = 111
     Top = 174
     Width = 88
@@ -113,9 +112,8 @@ object Form1: TForm1
     Font.Style = [fsBold]
     ParentFont = False
     TabOrder = 6
-    OnClick = NumberClick
   end
-  object btn9: TButton
+  object Button7: TButton
     Left = 214
     Top = 174
     Width = 88
@@ -128,9 +126,8 @@ object Form1: TForm1
     Font.Style = [fsBold]
     ParentFont = False
     TabOrder = 7
-    OnClick = NumberClick
   end
-  object btnAdd: TButton
+  object Button8: TButton
     Left = 317
     Top = 174
     Width = 88
@@ -144,7 +141,7 @@ object Form1: TForm1
     ParentFont = False
     TabOrder = 8
   end
-  object btn4: TButton
+  object Button9: TButton
     Left = 8
     Top = 268
     Width = 88
@@ -157,9 +154,8 @@ object Form1: TForm1
     Font.Style = [fsBold]
     ParentFont = False
     TabOrder = 9
-    OnClick = NumberClick
   end
-  object btn5: TButton
+  object Button10: TButton
     Left = 111
     Top = 268
     Width = 88
@@ -172,9 +168,8 @@ object Form1: TForm1
     Font.Style = [fsBold]
     ParentFont = False
     TabOrder = 10
-    OnClick = NumberClick
   end
-  object btn6: TButton
+  object Button11: TButton
     Left = 214
     Top = 268
     Width = 88
@@ -187,9 +182,8 @@ object Form1: TForm1
     Font.Style = [fsBold]
     ParentFont = False
     TabOrder = 11
-    OnClick = NumberClick
   end
-  object btnSub: TButton
+  object Button12: TButton
     Left = 317
     Top = 268
     Width = 88
@@ -203,7 +197,7 @@ object Form1: TForm1
     ParentFont = False
     TabOrder = 12
   end
-  object btn1: TButton
+  object Button13: TButton
     Left = 8
     Top = 362
     Width = 88
@@ -216,9 +210,8 @@ object Form1: TForm1
     Font.Style = [fsBold]
     ParentFont = False
     TabOrder = 13
-    OnClick = NumberClick
   end
-  object btn2: TButton
+  object Button14: TButton
     Left = 111
     Top = 362
     Width = 88
@@ -231,9 +224,8 @@ object Form1: TForm1
     Font.Style = [fsBold]
     ParentFont = False
     TabOrder = 14
-    OnClick = NumberClick
   end
-  object btn3: TButton
+  object Button15: TButton
     Left = 214
     Top = 362
     Width = 88
@@ -246,9 +238,8 @@ object Form1: TForm1
     Font.Style = [fsBold]
     ParentFont = False
     TabOrder = 15
-    OnClick = NumberClick
   end
-  object btnMult: TButton
+  object Button16: TButton
     Left = 319
     Top = 362
     Width = 88
@@ -262,7 +253,7 @@ object Form1: TForm1
     ParentFont = False
     TabOrder = 16
   end
-  object btn0: TButton
+  object Button17: TButton
     Left = 8
     Top = 464
     Width = 88
@@ -275,9 +266,8 @@ object Form1: TForm1
     Font.Style = [fsBold]
     ParentFont = False
     TabOrder = 17
-    OnClick = NumberClick
   end
-  object btnDot: TButton
+  object Button18: TButton
     Left = 111
     Top = 464
     Width = 88
@@ -291,7 +281,7 @@ object Form1: TForm1
     ParentFont = False
     TabOrder = 18
   end
-  object btnEquals: TButton
+  object Button19: TButton
     Left = 214
     Top = 464
     Width = 88
@@ -305,7 +295,7 @@ object Form1: TForm1
     ParentFont = False
     TabOrder = 19
   end
-  object btnDiv: TButton
+  object Button20: TButton
     Left = 319
     Top = 464
     Width = 88

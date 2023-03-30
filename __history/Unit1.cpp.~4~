@@ -21,7 +21,7 @@ void __fastcall TForm1::NumberClick(TObject *Sender)
 
 		 if(EditDisplay->Text == "0"){
 
-			EditDisplay->Text = b->Caption;
+			EdiDisplay->Text = b->Caption;
 
 
 		 }else{
