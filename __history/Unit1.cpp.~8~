@@ -51,29 +51,6 @@ void __fastcall TForm1::btnEqualsClick(TObject *Sender)
 {
 
 		secondnum = (EditDisplay->Text.ToDouble());
-		if(op == "+"){
-
-		answer = fristnum + secondnum;
-		 EditDisplay->Text = answer;
-
-		}else if(op == "-"){
-
-		answer = fristnum - secondnum;
-		 EditDisplay->Text = answer;
-
-		} else if(op == "x"){
-
-		answer = fristnum * secondnum;
-		 EditDisplay->Text = answer;
-
-		} else if(op == "/"){
-
-		answer = fristnum / secondnum;
-		 EditDisplay->Text = answer;
-
-		}
-
-
 
 
 

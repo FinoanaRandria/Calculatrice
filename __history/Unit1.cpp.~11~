@@ -66,11 +66,6 @@ void __fastcall TForm1::btnEqualsClick(TObject *Sender)
 		answer = fristnum * secondnum;
 		 EditDisplay->Text = answer;
 
-		} else if(op == "/"){
-
-		answer = fristnum / secondnum;
-		 EditDisplay->Text = answer;
-
 		}
 
 

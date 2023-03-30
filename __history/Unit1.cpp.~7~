@@ -10,7 +10,7 @@
 TForm1 *Form1;
 
 
-Double fristnum, secondnum, answer;
+Double fristnum, secondenum, answer;
 String op;
 
 
@@ -45,37 +45,5 @@ void __fastcall TForm1::OperatorClick(TObject *Sender)
 			  fristnum = (EditDisplay->Text.ToDouble());
 			  op = b->Caption;
 			  EditDisplay -> Text ="";
-}
-//---------------------------------------------------------------------------
-void __fastcall TForm1::btnEqualsClick(TObject *Sender)
-{
-
-		secondnum = (EditDisplay->Text.ToDouble());
-		if(op == "+"){
-
-		answer = fristnum + secondnum;
-		 EditDisplay->Text = answer;
-
-		}else if(op == "-"){
-
-		answer = fristnum - secondnum;
-		 EditDisplay->Text = answer;
-
-		} else if(op == "x"){
-
-		answer = fristnum * secondnum;
-		 EditDisplay->Text = answer;
-
-		} else if(op == "/"){
-
-		answer = fristnum / secondnum;
-		 EditDisplay->Text = answer;
-
-		}
-
-
-
-
-
 }
 //---------------------------------------------------------------------------

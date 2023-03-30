@@ -295,8 +295,8 @@ object Form1: TForm1
     TabOrder = 18
   end
   object btnEquals: TButton
-    Left = 205
-    Top = 468
+    Left = 214
+    Top = 464
     Width = 88
     Height = 88
     Caption = '='
@@ -307,7 +307,6 @@ object Form1: TForm1
     Font.Style = [fsBold]
     ParentFont = False
     TabOrder = 19
-    OnClick = btnEqualsClick
   end
   object btnDiv: TButton
     Left = 321
