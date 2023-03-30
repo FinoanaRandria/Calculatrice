@@ -34,6 +34,7 @@ object Form1: TForm1
     Top = 80
     Width = 88
     Height = 88
+    Caption = #8592
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -48
@@ -47,6 +48,7 @@ object Form1: TForm1
     Top = 79
     Width = 88
     Height = 88
+    Caption = 'CE'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -48
@@ -60,6 +62,7 @@ object Form1: TForm1
     Top = 80
     Width = 88
     Height = 88
+    Caption = 'C'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -48
@@ -73,6 +76,7 @@ object Form1: TForm1
     Top = 80
     Width = 88
     Height = 88
+    Caption = #177
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -48
