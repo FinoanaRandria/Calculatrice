@@ -20,7 +20,6 @@ object Form1: TForm1
     Width = 397
     Height = 66
     Alignment = taRightJustify
-    Color = clWhite
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -48
@@ -301,8 +300,8 @@ object Form1: TForm1
     OnClick = btnDotClick
   end
   object btnEquals: TButton
-    Left = 214
-    Top = 464
+    Left = 205
+    Top = 468
     Width = 88
     Height = 88
     Caption = '='

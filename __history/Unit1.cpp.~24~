@@ -56,15 +56,81 @@ void __fastcall TForm1::btnEqualsClick(TObject *Sender)
 		answer = fristnum + secondnum;
 		 EditDisplay->Text = answer;
 
-		}else if(op == "+"){
+		}else if(op == "-"){
 
-		answer = fristnum + secondnum;
+		answer = fristnum - secondnum;
+		 EditDisplay->Text = answer;
+
+		} else if(op == "x"){
+
+		answer = fristnum * secondnum;
+		 EditDisplay->Text = answer;
+
+		} else if(op == "/"){
+
+		answer = fristnum / secondnum;
 		 EditDisplay->Text = answer;
 
 		}
 
 
 
+
+
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::btnCClick(TObject *Sender)
+{
+                  EditDisplay->Text = "0";
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::btnCEClick(TObject *Sender)
+{
+
+  EditDisplay->Text = "";
+
+  String f,s;
+
+  f= (fristnum);
+  s= (secondnum);
+
+
+  f="";
+  s="";
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::btnPMClick(TObject *Sender)
+{
+   Double q = (EditDisplay->Text.ToDouble());
+   EditDisplay ->Text = (-1 * q);
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::btnBSClick(TObject *Sender)
+{
+
+int q = EditDisplay->Text.Length();
+
+   if(q==1){
+	   EditDisplay->Text = "0";
+
+   }else{
+
+		String d = EditDisplay->Text.Delete(q,1);
+        EditDisplay->Text = d;
+
+   }
+
+
+
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::btnDotClick(TObject *Sender)
+{
+
+
+if (EditDisplay->Text.Pos(".") == 0) {
+    EditDisplay->Text = EditDisplay->Text + ".";
+}
 
 
 }

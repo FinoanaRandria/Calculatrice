@@ -127,7 +127,7 @@ int q = EditDisplay->Text.Length();
 void __fastcall TForm1::btnDotClick(TObject *Sender)
 {
 
-if(! EditDisplay->Text.Pos(".")){
+if(! EditDisplay->Text.Pos1(".")){
 					 EditDisplay->Text = EditDisplay->Text + ".";
 }
 }

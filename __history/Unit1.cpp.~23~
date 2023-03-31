@@ -10,7 +10,7 @@
 TForm1 *Form1;
 
 
-Double fristnum, secondnum, answer;
+float fristnum, secondnum, answer;
 String op;
 
 
@@ -127,8 +127,11 @@ int q = EditDisplay->Text.Length();
 void __fastcall TForm1::btnDotClick(TObject *Sender)
 {
 
-if(! EditDisplay->Text.Pos(".")){
-					 EditDisplay->Text = EditDisplay->Text + ".";
+
+if (EditDisplay->Text.Pos(".") == 0) {
+    EditDisplay->Text = EditDisplay->Text + ".";
 }
+
+
 }
 //---------------------------------------------------------------------------

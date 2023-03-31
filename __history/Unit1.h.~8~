@@ -7,7 +7,6 @@
 #include <Vcl.Controls.hpp>
 #include <Vcl.StdCtrls.hpp>
 #include <Vcl.Forms.hpp>
-#include <Vcl.ExtCtrls.hpp>
 //---------------------------------------------------------------------------
 class TForm1 : public TForm
 {
@@ -37,10 +36,6 @@ __published:	// Composants gérés par l'EDI
 	void __fastcall OperatorClick(TObject *Sender);
 	void __fastcall btnEqualsClick(TObject *Sender);
 	void __fastcall btnCClick(TObject *Sender);
-	void __fastcall btnCEClick(TObject *Sender);
-	void __fastcall btnPMClick(TObject *Sender);
-	void __fastcall btnBSClick(TObject *Sender);
-	void __fastcall btnDotClick(TObject *Sender);
 private:	// Déclarations utilisateur
 public:		// Déclarations utilisateur
 	__fastcall TForm1(TComponent* Owner);
